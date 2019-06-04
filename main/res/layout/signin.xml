@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignedIn"
+    android:background="@drawable/backgtound_png">
+
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="50dp"
+        android:layout_marginBottom="194dp"
+        android:background="@drawable/button_background"
+        android:text="@string/sign_out"
+        android:textColor="@color/textColor" />
+
+</RelativeLayout>
